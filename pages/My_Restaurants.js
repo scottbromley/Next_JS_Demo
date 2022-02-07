@@ -46,7 +46,7 @@ export async function getStaticProps(){
                 id: restaurant._id.toString(),
             }))
         }, 
-        revalidate: 1, 
+        fallback: true, 
     }
 }
 
