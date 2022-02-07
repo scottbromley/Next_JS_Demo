@@ -7,7 +7,7 @@ import { MongoClient } from 'mongodb';
 function My_Restaurants(props) {
 
   const restaurant_list = props.restaurants;
-  console.log("hi");
+  
 
 
   return (
