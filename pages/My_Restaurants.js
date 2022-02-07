@@ -6,7 +6,7 @@ import { MongoClient } from 'mongodb';
 
 function My_Restaurants(props) {
 
-    const restaurant_list = props.restaurants;
+  const restaurant_list = props.restaurants;
 
 
   return (
@@ -46,7 +46,7 @@ export async function getStaticProps(){
                 id: restaurant._id.toString(),
             }))
         }, 
-        fallback: true, 
+        revalidate: 1, 
     }
 }
 
