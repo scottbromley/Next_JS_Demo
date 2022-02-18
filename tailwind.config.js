@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['Amatic SC', 'sans']
+      sans: ['Arial', 'sans']
     }
   },
   plugins: [],

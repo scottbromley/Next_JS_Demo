@@ -7,7 +7,7 @@ import Logo from '../public/SocialEatLogo.svg';
 function HeaderBar() {
   return (
     <div>
-      <div className="flex justify-between h-14 align-middle bg-gradient-to-r from-cyan-400 to-blue-500 shadow-md  text-white px-5">
+      <div className="w-1000 border-b border-b-stone-200  flex justify-between h-14 align-middle bg-gradient-to-r from-slate-900 to-stone-800 shadow-md  text-white px-5">
         <div className="flex flex-row w-fit cursor-pointer ">
           <Link href="/" passHref>
             <div>

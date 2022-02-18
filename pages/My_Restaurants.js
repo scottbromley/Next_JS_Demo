@@ -11,10 +11,10 @@ function My_Restaurants(props) {
 
 
   return (
-    <div className="w-screen h-screen flex flex-col justify-items-center bottom-0">
+    <div className="w-screen h-screen flex flex-col justify-items-center bottom-0 bg-slate-600">
       <HeaderBar />
-      <h1 className="text-cyan-500 p-2 font-cursive">My Liked Restaurants</h1>
-      <div className="bg-slate-200 fixed top-24 left-2 right-2 bottom-2 rounded-md flex justify-center overflow-y-scroll">
+      <h1 className="text-slate-200 text-2xl p-2 font-cursive">My Liked Restaurants</h1>
+      <div className=" fixed top-24 left-2 right-2 bottom-2 rounded-md flex justify-center overflow-y-scroll">
         <div className="relative top-0 bottom-0 my-2 px-2 flex flex-col ">
             {restaurant_list.map((restaurant, index) => (
                 <Restaurant_Preview key={index} restaurantInfo={restaurant}/>
